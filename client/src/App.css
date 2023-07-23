@@ -1,0 +1,197 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.logo{
+  background: left / cover url("images/bmwe901.png");
+  height: 40px;
+  display: flex;
+  align-content: left;
+  justify-content: left;
+  text-decoration: none;
+  color: #E7222E;
+  text-shadow: #000 2px 2px 0.2rem;
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0px;
+  padding-bottom: 120px;
+  padding-left: 20px;
+}
+.logoP1{
+  color: #81c4ff;
+}
+.headerBar{
+  font-size: 20px;
+  position:absolute; 
+  top: 153px;
+  right: 70px;
+  align-content: center;
+}
+.tableData{
+ padding-left: 20px;
+}
+.signUp{
+  display: block;  
+}
+.signUpButton{
+  font-size: 20px;
+  font-weight: 600;
+  width: 400px;
+  height: 50px;
+  margin-top: 25px;
+  transition: .4s;
+  border-radius: 0cm;
+  border-style: none;
+}
+.signUpButton:hover{
+  background-color: #E7222E;
+  color:#005199
+}
+.signUpInput{
+  font-size: 20px;
+  height: 50px;
+  width: 400px;
+  margin: 7px;
+}
+.signUpDiv{
+  display: flex;
+  justify-content: center;
+}
+.blog{
+  display: inline-block;
+  padding: 20px;
+  width: 80%;
+}
+.body{
+  display: inline-block;
+  width:65%;
+  padding:10px;
+}
+.sidebar{
+  display: inline-block;
+  position:absolute;
+  top:210px;
+  right: 30px;
+  outline: 1px solid rgb(230, 230, 230);
+  padding:10px;
+  width: 20%;
+  background-color: rgb(250,250,250);
+}
+.modelSelect{
+  background-color: aliceblue;
+  display:inline;
+  font-size: 18px;
+  transition: .3s;
+}
+dd:hover{
+  transform: scale(1.1);
+}
+dd{
+  padding: 6px;
+  transition: .3s;
+}
+.post{
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+}
+.postInfo{
+  display:inline;
+  padding: 10px;
+  padding-left: 30px;
+}
+.postImage{
+  display:inline;
+  padding:10px;
+}
+.postImageActual{
+  display:inline;
+  width: 110%;
+}
+.postTitle{
+  font-size: 26px;
+  font-weight: 800;
+}
+.postDate{
+  display: inline;
+  font-size:12px;
+}
+.postAuthor{
+  display: inline;
+  padding-right: 10px;
+  font-weight: 550;
+  font-size: 12px;
+}
+.postBody{
+  color:#282c34;
+  font-weight: 200;
+  font-size: 14px;
+}
+.postRow2{
+  padding-bottom:5px;
+  padding-top: 1px;
+}
+
+.headElem:hover{
+  background-color:#E7222E;
+  text-decoration: none;
+}
+.headElem:visited{
+  color:#E7222E;
+  text-decoration: none;
+}
+.headElem:focus{
+  color:#E7222E;
+  text-decoration: none;
+}
+.headElem:active{
+  color:#E7222E;
+  text-decoration: none;
+}
+.headElem{
+  color:#E7222E;
+  text-decoration: none;
+  transition: .3s;
+}
